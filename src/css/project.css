@@ -1,0 +1,51 @@
+.project {
+	display: grid;
+	flex: 0 1 33%;
+	grid-template-columns: 1;
+  grid-template-rows: 5em 17em 3em;
+  grid-template-areas: 
+      "t"
+      "i"
+      "l";
+  justify-items: center;
+}
+
+.title {
+	grid-area: t;
+}
+
+.projectTitle {
+/*	padding-left: 1.5em;
+	padding-right: 1.5em;*/
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	font-size: 1.7em;
+	color: #BE657E;
+	line-height: 1.2;
+	align-self: flex-end;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.sourceCode {
+	grid-area: l;
+	color: #BE657E;
+}
+
+.sourceCode:hover {
+	opacity: 0.5;
+}
+
+.imageGrid {
+	grid-area: i;
+}
+
+.image {
+  height: 16em;
+  border: solid #BE657E;
+	border-radius: 1.25em;
+}
+
+.image:hover {
+	opacity: 0.7;
+}

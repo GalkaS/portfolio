@@ -1,0 +1,20 @@
+/*.footer {
+	display: flex;
+	color: #BE657E;
+	margin-left: 3rem;
+  flex-direction: column;
+}
+
+.socialMedia {
+  flex: 0 1 5%;
+
+}
+
+.icon {
+  height: 3em;
+  margin: 0.5em;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}*/
